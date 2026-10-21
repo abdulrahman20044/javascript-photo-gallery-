@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Photo Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Interactive Photo Gallery</h1>
+    <p>Move your mouse over an image to preview it.</p>
+  </header>
+
+  <main>
+    <div id="image">
+      Hover over an image below to display here.
+    </div>
+
+    <div class="gallery">
+      <img
+        src="https://placehold.co/600x400/123456/ffffff?text=Network+Security"
+        alt="Network Security"
+        onmouseover="upDate(this)"
+        onmouseleave="unDo()">
+
+      <img
+        src="https://placehold.co/600x400/205375/ffffff?text=Cybersecurity"
+        alt="Cybersecurity"
+        onmouseover="upDate(this)"
+        onmouseleave="unDo()">
+
+      <img
+        src="https://placehold.co/600x400/087e87/ffffff?text=Data+Protection"
+        alt="Data Protection"
+        onmouseover="upDate(this)"
+        onmouseleave="unDo()">
+
+      <img
+        src="https://placehold.co/600x400/173b57/ffffff?text=Firewall"
+        alt="Firewall Protection"
+        onmouseover="upDate(this)"
+        onmouseleave="unDo()">
+
+      <img
+        src="https://placehold.co/600x400/102a43/ffffff?text=Encryption"
+        alt="Data Encryption"
+        onmouseover="upDate(this)"
+        onmouseleave="unDo()">
+
+      <img
+        src="https://placehold.co/600x400/24476b/ffffff?text=Malware"
+        alt="Malware Detection"
+        onmouseover="upDate(this)"
+        onmouseleave="unDo()">
+    </div>
+  </main>
+
+  <footer>
+    <p>JavaScript Photo Gallery Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
